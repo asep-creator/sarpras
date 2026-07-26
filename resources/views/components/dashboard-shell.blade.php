@@ -3,7 +3,7 @@
 <x-app-layout>
     <div class="min-h-screen bg-slate-50" x-data="{ open: false }">
         <div class="flex min-h-screen">
-            <aside :class="{ 'translate-x-0': open, '-translate-x-full': !open }" class="fixed inset-y-0 left-0 z-40 w-72 -translate-x-full transform bg-emerald-950 p-6 text-white shadow-2xl transition-transform duration-200 lg:static lg:block lg:translate-x-0">
+            <aside :class="{ 'translate-x-0': open, '-translate-x-full': !open }" class="fixed inset-y-0 left-0 z-40 w-64 -translate-x-full transform bg-emerald-950 p-6 text-white shadow-2xl transition-transform duration-200 lg:w-72 lg:static lg:block lg:translate-x-0">
                 <div class="flex items-center justify-between lg:justify-start">
                     <div>
                         <p class="text-sm text-emerald-100">SARPRAS</p>

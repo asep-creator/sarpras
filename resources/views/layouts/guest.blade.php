@@ -18,7 +18,7 @@
         <div class="min-h-screen flex flex-col sm:justify-center items-center pt-6 sm:pt-0 bg-gray-100">
             <div>
                 <a href="/">
-                    <img src="{{ asset('images/logo_sarpras.png') }}" alt="Logo" class="w-32 h-32 mx-auto object-cover rounded-md bg-white" />
+                    <img src="{{ asset('images/logo_sarpras.png') }}" alt="Logo" class="w-20 h-20 sm:w-32 sm:h-32 mx-auto object-cover rounded-md bg-white" />
                 </a>
             </div>
 

@@ -15,7 +15,7 @@
         </div>
 
         <div class="overflow-x-auto rounded-3xl border border-slate-200 bg-white shadow-sm">
-            <table class="w-full min-w-[760px] divide-y divide-slate-200 text-left text-sm text-slate-600">
+            <table class="w-full min-w-0 divide-y divide-slate-200 text-left text-sm text-slate-600">
                 <thead class="bg-slate-50 text-slate-900">
                     <tr>
                         <th class="px-4 py-3">Nama</th>

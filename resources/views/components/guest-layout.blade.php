@@ -13,7 +13,7 @@
         <div class="max-w-md w-full space-y-8">
             <div class="text-center">
                 <a href="{{ url('/') }}" class="inline-block">
-                    <img src="{{ asset('images/logo_sarpras.png') }}" alt="Logo" class="mx-auto h-40 w-40 object-cover rounded-md bg-white" />
+                    <img src="{{ asset('images/logo_sarpras.png') }}" alt="Logo" class="mx-auto h-28 w-28 sm:h-40 sm:w-40 object-cover rounded-md bg-white" />
                 </a>
                 @if($title)
                     <h2 class="mt-4 text-center text-2xl font-extrabold text-white">{{ $title }}</h2>
