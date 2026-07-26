@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    background-color: #f8fafc;
+  }
+}
+
+@layer components {
+  .dashboard-card {
+    @apply rounded-[32px] bg-white border border-slate-200 shadow-sm;
+  }
+
+  .sidebar-link {
+    @apply transition duration-200 ease-in-out;
+  }
+
+  .sidebar-link:hover {
+    @apply text-white;
+  }
+}
